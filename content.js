@@ -103,6 +103,7 @@
 		});
 	}
 
+	//prevent disconnecton when skipping
 	setInterval(attemptSkip, 800);
 
 	chrome.storage.onChanged.addListener((changes, area) => {
