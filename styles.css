@@ -1,0 +1,4 @@
+.uhcf-hidden {
+  opacity: 0 !important;
+  transition: opacity 0.15s ease !important;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Country Filter</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			min-width: 300px;
+			padding: 12px
+		}
+
+		label {
+			display: block;
+			margin-top: 8px
+		}
+
+		select {
+			width: 100%;
+			height: 120px
+		}
+
+		button {
+			margin-top: 9px;
+			padding: 8px 12px
+		}
+
+		.row {
+			display: flex;
+			gap: 8px
+		}
+
+		.hint {
+			font-size: 12px;
+			color: #666;
+			margin-top: 8px
+		}
+	</style>
+</head>
+
+<body>
+	<h3>Uhmegle — Country Filter</h3>
+	<div>
+		<label for="country-list">Allowed countries (select multiple):</label>
+		<select id="country-list" multiple></select>
+		<div class="row">
+			<button id="save">Save</button>
+			<button id="clear">Clear</button>
+		</div>
+		<div class="hint">
+			Tip: hold Ctrl/Cmd to select multiple countries.
+			The content script hides any user elements that include a country not in this list.
+		</div>
+	</div>
+
+	<script src="popup.js"></script>
+</body>
+
+</html>
