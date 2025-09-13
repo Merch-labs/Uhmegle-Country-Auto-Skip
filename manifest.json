@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Uhmegle Country Auto Skip",
-	"version": "1.0",
+	"version": "1.0.0",
 	"description": "Auto-skip users on Uhmegle if their country is not in your allowed list.",
 	"icons": {
 		"16": "icons/icon16.png",
