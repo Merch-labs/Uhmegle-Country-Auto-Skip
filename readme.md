@@ -12,7 +12,7 @@ Automatically skips unwanted countries on Uhmegle, making your browsing experien
 
 ### From GitHub
 
-1. Download the latest release ZIP from the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) page.
+1. Download the latest release ZIP from the [Releases](https://github.com/Merch-labs/Uhmegle-Country-Auto-Skip/releases) page.
 2. Extract the ZIP to a folder.
 3. Open Chrome and go to `chrome://extensions/`.
 4. Enable **Developer mode** (toggle in the top-right corner).
