@@ -16,10 +16,10 @@
 			"48": "icons/icon48.png"
 		}
 	},
-	"host_permissions": ["*://*.uhmegle.com/*", "*://uhmegle.com/*"],
+	"host_permissions": ["*://*.uhmegle.com/*", "*://uhmegle.com/*",  "*://*.umingle.com/*", "*://umingle.com/*"],
 	"content_scripts": [
 		{
-			"matches": ["*://*.uhmegle.com/*", "*://uhmegle.com/*"],
+			"matches": ["*://*.uhmegle.com/*", "*://uhmegle.com/*",  "*://*.umingle.com/*", "*://umingle.com/*"],
 			"js": ["content.js"],
 			"css": ["styles.css"],
 			"run_at": "document_idle"
